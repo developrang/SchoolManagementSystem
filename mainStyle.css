@@ -80,12 +80,22 @@
 
 .lncf{width: 65px; position: fixed; height: 100vh; background-color: #0747A6; color: #fff;
     border-right: 1px solid #999; z-index: 1; padding: 20px 5px; text-align: center; font-size: 20px;}
-.leftNav{padding-left: 100px; height: 100vh; background-color: #0747A6;}
+.leftNav{padding: 20px 0px 20px 100px; height: 100vh; background-color: #0747A6; color: #fff;}
+.leftNav{padding: 20px 0px 20px 100px; height: 100vh; background-color: #0747A6; color: #fff;}
+.leftNav h2{margin: 12px 0px 25px;}
 .lncf div:first-child{margin-bottom: 20px;}
 .lncf .lnBottom{position:absolute; bottom: 0px;}
 .lncf div{margin: 07px 0px;}
 .lncf a.lncf-icon{width: 40px; height: 40px; background-color: #0747A6; border-radius: 50%; 
     color: #fff; text-decoration: none; display: inline-block;}
-.lncf a.lncf-icon i{line-height: 40px;}   
+.lncf a.lncf-icon i{line-height: 36px;}   
 
 .lncf a.lncf-icon:hover{background-color: #0065FF;}
+
+.leftNav > ul{list-style-type: none; padding: 0px;}
+.leftNav > ul li{padding-right: 20px;}
+.leftNav > ul li a{padding: 08px 12px; color: #fff; display: block; }
+.leftNav > ul li a:hover{background-color: rgba(9, 30, 66, 0.42); text-decoration: none; border-radius:04px; }
+.leftNav > ul li a.active{background-color: rgba(9, 30, 66, 0.25); border-radius:04px;}
+#wrapper{position: relative; padding-top: 20px;}
+#wrapper h1{margin: 20px 0px 25px; font-family: Arial, Helvetica, sans-serif; color: #172B4D; font-size: 20px; font-weight: 600;}
