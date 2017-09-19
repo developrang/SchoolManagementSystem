@@ -80,10 +80,8 @@
 
 .lncf{width: 65px; position: fixed; height: 100vh; background-color: #0747A6; color: #fff;
     border-right: 1px solid #999; z-index: 1; padding: 20px 5px; text-align: center; font-size: 20px;}
-.leftNav{padding-left: 100px; height: 100vh; background-color: #0747A6;}
-.lncf div:first-child{margin-bottom: 20px;}
-.lncf .lnBottom{position:absolute; bottom: 0px;}
-.lncf div{margin: 07px 0px;}
+.leftNav{padding-left: 100px; height: 100vh;}
+
 .lncf a.lncf-icon{width: 40px; height: 40px; background-color: #0747A6; border-radius: 50%; 
     color: #fff; text-decoration: none; display: inline-block;}
 .lncf a.lncf-icon i{line-height: 40px;}   
