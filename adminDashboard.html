@@ -4,7 +4,7 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!--<meta name="viewport" content="width=device-width, initial-scale=1">-->
   <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
   <title>Admin Dashboard | SMS</title>
 
@@ -22,17 +22,38 @@
 </head>
 
 <body>
+  <div class="screenWrapper"></div>
   <div class="container-fluid">
     <div class="row">
+
       <div class="lncf">
         <div><a href="#" class="lncf-icon"><i class="glyphicon glyphicon-transfer"></i></a></div>
         <div><a href="#" class="lncf-icon"><i class="glyphicon glyphicon-search"></i></a></div>
         <div><a href="#" class="lncf-icon"><i class="glyphicon glyphicon-plus"></i></a></div>
 
         <div class="lnBottom">
-        
-        <div><a href="#" class="lncf-icon"><i class="glyphicon glyphicon-user"></i></a></div>
 
+          <div><a href="#" class="lncf-icon"><i class="glyphicon glyphicon-user"></i></a></div>
+
+        </div>
+      </div>
+      <div class="searchWrapper">
+        <div class="lncf">
+          <div><i class="glyphicon glyphicon-transfer text-muted"></i></div>
+          <div><a href="#" class="lncf-icon"><i class="glyphicon glyphicon-arrow-left"></i></a></div>
+        </div>
+        <div class="searchPanel"> 
+          <div class="row">
+            <div class="col-sm-12"></div>            
+          </div>
+
+          <div class="row">
+            <div class="col-sm-12">
+            <form>
+              <input type="text" name="" id="" placeholder="Search">
+            </form>
+            </div>
+          </div>
         </div>
       </div>
       <div class="col-xs-6 col-sm-4 col-md-3 leftNav">
@@ -51,40 +72,40 @@
           </header>
           <div class="row">
             <div class="col-sm-12">
-                <div class="panel panel-default">
-                    <!-- Default panel contents -->
-                    <div class="panel-heading">Current Employees</div>
-                  
-                    <!-- Table -->
-                    <table class="table table-striped">
-                      <thead>
-                        <tr>
-                          <th>#</th>
-                          <th>First Name</th>
-                          <th>Last Name</th>
-                          <th>Username</th>
-                          <th>password</th>                          
-                        </tr>
-                      </thead>
-                      <tbody>
-                          <tr>
-                              <td>1</td>
-                              <td>Pandurang</td>
-                              <td>Nanaware</td>
-                              <td>developrang</td>
-                              <td>*******</td>                          
-                            </tr>
-                            <tr>
-                                <td>2</td>
-                                <td>Pandurang</td>
-                                <td>Nanaware</td>
-                                <td>developrang</td>
-                                <td>*******</td>                          
-                              </tr>
+              <div class="panel panel-default">
+                <!-- Default panel contents -->
+                <div class="panel-heading">Current Employees</div>
 
-                      </tbody>
-                    </table>
-                  </div>
+                <!-- Table -->
+                <table class="table table-striped">
+                  <thead>
+                    <tr>
+                      <th>#</th>
+                      <th>First Name</th>
+                      <th>Last Name</th>
+                      <th>Username</th>
+                      <th>password</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>1</td>
+                      <td>Pandurang</td>
+                      <td>Nanaware</td>
+                      <td>developrang</td>
+                      <td>*******</td>
+                    </tr>
+                    <tr>
+                      <td>2</td>
+                      <td>Pandurang</td>
+                      <td>Nanaware</td>
+                      <td>developrang</td>
+                      <td>*******</td>
+                    </tr>
+
+                  </tbody>
+                </table>
+              </div>
             </div>
           </div>
 
@@ -97,6 +118,8 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
   <!-- Include all compiled plugins (below), or include individual files as needed -->
   <script src="js/bootstrap.min.js"></script>
+  <script src="js/jquery-3.2.1.js"></script>
+  <script src="js/main.js"></script>
 </body>
 
 </html>
