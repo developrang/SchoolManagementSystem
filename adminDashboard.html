@@ -22,36 +22,68 @@
 </head>
 
 <body>
-  <div class="screenWrapper"></div>
+  <div id="screenWrapper"></div>
   <div class="container-fluid">
     <div class="row">
 
       <div class="lncf">
         <div><a href="#" class="lncf-icon"><i class="glyphicon glyphicon-transfer"></i></a></div>
-        <div><a href="#" class="lncf-icon"><i class="glyphicon glyphicon-search"></i></a></div>
-        <div><a href="#" class="lncf-icon"><i class="glyphicon glyphicon-plus"></i></a></div>
+        <div><a href="#" id="searchBtn" class="lncf-icon"><i class="glyphicon glyphicon-search"></i></a></div>
+        <div><a href="#" id="createBtn" class="lncf-icon"><i class="glyphicon glyphicon-plus"></i></a></div>
 
         <div class="lnBottom">
 
-          <div><a href="#" class="lncf-icon"><i class="glyphicon glyphicon-user"></i></a></div>
+          <div><a href="#" id="pInfo" class="lncf-icon"><i class="glyphicon glyphicon-user"></i></a>
+          
+          <ul class="list-group" id="popover">
+          <li class="list-group-item">USER NAME</li>
+          <li class="list-group-item"><a href=''>View Porfile</a></li>
+          <li class="list-group-item"><a href=''>Logout</a></li>
+          </ul>
+          </div>
 
         </div>
       </div>
-      <div class="searchWrapper">
+      <div id="searchWrapper" class="fixlnWrapper">
         <div class="lncf">
           <div><i class="glyphicon glyphicon-transfer text-muted"></i></div>
-          <div><a href="#" class="lncf-icon"><i class="glyphicon glyphicon-arrow-left"></i></a></div>
+          <div><a href="#" class="lncf-icon lncfBackBtn"><i class="glyphicon glyphicon-arrow-left"></i></a></div>
         </div>
-        <div class="searchPanel"> 
+        <div class="actionPanel"> 
           <div class="row">
-            <div class="col-sm-12"></div>            
+            <div class="col-sm-12"><h3>SMS</h3></div>            
           </div>
 
           <div class="row">
             <div class="col-sm-12">
             <form>
-              <input type="text" name="" id="" placeholder="Search">
+              <input type="text" name="searchBox" id="searchBox" autofocus placeholder="Search">
+             <a href="#" name="searchModules" id="searchModules" class="lncf-icon"><i class="glyphicon glyphicon-search"></i></a>
+
             </form>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="createNewWrapper" class="fixlnWrapper">
+        <div class="lncf">
+          <div><i class="glyphicon glyphicon-transfer text-muted"></i></div>
+          <div><a href="#" class="lncf-icon lncfBackBtn"><i class="glyphicon glyphicon-arrow-left"></i></a></div>
+        </div>
+        <div class="actionPanel"> 
+          <div class="row">
+            <div class="col-sm-12"><h3>SMS</h3></div>            
+          </div>
+
+          <div class="row">
+            <div class="col-sm-12">
+            <p class="text-muted">Create A New </p>
+            <ul>
+              <li><a href="" name="" id="">Employee</a></li>
+              <li><a href="" name="" id="">Accountant</a></li>
+              <li><a href="" name="" id="">Administrator</a></li>
+              <li><a href="" name="" id="">Student</a></li>
+            </ul>
             </div>
           </div>
         </div>
