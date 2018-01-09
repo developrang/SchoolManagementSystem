@@ -120,3 +120,4 @@ a.lncf-icon:hover{background-color: #0065FF;}
 .leftNav > ul li a.active{background-color: rgba(9, 30, 66, 0.25); border-radius:04px;}
 #wrapper{position: relative; padding-top: 20px;}
 #wrapper h1{margin: 20px 0px 25px; font-family: Arial, Helvetica, sans-serif; color: #172B4D; font-size: 20px; font-weight: 600;}
+.clearFix{ clear: both;}
